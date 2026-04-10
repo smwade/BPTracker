@@ -7,40 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A10000001 /* BPTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000002 /* BPTrackerApp.swift */; };
-		A10000003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000004 /* ContentView.swift */; };
-		A10000005 /* BloodPressureReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000006 /* BloodPressureReading.swift */; };
-		A10000007 /* AddReadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000008 /* AddReadingView.swift */; };
-		A10000009 /* ReadingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000010 /* ReadingListView.swift */; };
-		A10000011 /* TrendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000012 /* TrendsView.swift */; };
-		A10000013 /* BPCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000014 /* BPCategory.swift */; };
-		A10000015 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000016 /* StatsView.swift */; };
-		A10000017 /* ExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000018 /* ExportView.swift */; };
-		A10000019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10000020 /* Assets.xcassets */; };
-		A10000022 /* BPSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000023 /* BPSession.swift */; };
-		A10000024 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000025 /* TimerManager.swift */; };
-		A10000026 /* TimedSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000027 /* TimedSessionView.swift */; };
+		B1000001 /* BPTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000001 /* BPTrackerApp.swift */; };
+		B1000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000002 /* ContentView.swift */; };
+		B1000003 /* BloodPressureReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000003 /* BloodPressureReading.swift */; };
+		B1000004 /* AddReadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000004 /* AddReadingView.swift */; };
+		B1000005 /* ReadingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000005 /* ReadingListView.swift */; };
+		B1000006 /* TrendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000006 /* TrendsView.swift */; };
+		B1000007 /* BPCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000007 /* BPCategory.swift */; };
+		B1000008 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000008 /* StatsView.swift */; };
+		B1000009 /* ExportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000009 /* ExportView.swift */; };
+		B1000010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2000010 /* Assets.xcassets */; };
+		B1000011 /* BPSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000011 /* BPSession.swift */; };
+		B1000012 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000012 /* TimerManager.swift */; };
+		B1000013 /* TimedSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000013 /* TimedSessionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A10000021 /* BPTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BPTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A10000002 /* BPTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPTrackerApp.swift; sourceTree = "<group>"; };
-		A10000004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A10000006 /* BloodPressureReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodPressureReading.swift; sourceTree = "<group>"; };
-		A10000008 /* AddReadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReadingView.swift; sourceTree = "<group>"; };
-		A10000010 /* ReadingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingListView.swift; sourceTree = "<group>"; };
-		A10000012 /* TrendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsView.swift; sourceTree = "<group>"; };
-		A10000014 /* BPCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPCategory.swift; sourceTree = "<group>"; };
-		A10000016 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
-		A10000018 /* ExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportView.swift; sourceTree = "<group>"; };
-		A10000020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A10000023 /* BPSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPSession.swift; sourceTree = "<group>"; };
-		A10000025 /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
-		A10000027 /* TimedSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimedSessionView.swift; sourceTree = "<group>"; };
+		B2000001 /* BPTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPTrackerApp.swift; sourceTree = "<group>"; };
+		B2000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B2000003 /* BloodPressureReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodPressureReading.swift; sourceTree = "<group>"; };
+		B2000004 /* AddReadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReadingView.swift; sourceTree = "<group>"; };
+		B2000005 /* ReadingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingListView.swift; sourceTree = "<group>"; };
+		B2000006 /* TrendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsView.swift; sourceTree = "<group>"; };
+		B2000007 /* BPCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPCategory.swift; sourceTree = "<group>"; };
+		B2000008 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		B2000009 /* ExportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportView.swift; sourceTree = "<group>"; };
+		B2000010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2000011 /* BPSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPSession.swift; sourceTree = "<group>"; };
+		B2000012 /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+		B2000013 /* TimedSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimedSessionView.swift; sourceTree = "<group>"; };
+		B2000099 /* BPTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BPTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A10000028 /* Frameworks */ = {
+		B3000001 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,54 +50,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A10000023 = {
+		B4000001 = {
 			isa = PBXGroup;
 			children = (
-				A10000024 /* BPTracker */,
-				A10000025 /* Products */,
+				B4000002 /* BPTracker */,
+				B4000003 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A10000024 /* BPTracker */ = {
+		B4000002 /* BPTracker */ = {
 			isa = PBXGroup;
 			children = (
-				A10000002 /* BPTrackerApp.swift */,
-				A10000004 /* ContentView.swift */,
-				A10000026 /* Models */,
-				A10000027 /* Views */,
-				A10000020 /* Assets.xcassets */,
+				B2000001 /* BPTrackerApp.swift */,
+				B2000002 /* ContentView.swift */,
+				B4000004 /* Models */,
+				B4000005 /* Views */,
+				B2000010 /* Assets.xcassets */,
 			);
 			path = BPTracker;
 			sourceTree = "<group>";
 		};
-		A10000025 /* Products */ = {
+		B4000003 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A10000021 /* BPTracker.app */,
+				B2000099 /* BPTracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A10000026 /* Models */ = {
+		B4000004 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				A10000006 /* BloodPressureReading.swift */,
-				A10000014 /* BPCategory.swift */,
-				A10000023 /* BPSession.swift */,
-				A10000025 /* TimerManager.swift */,
+				B2000003 /* BloodPressureReading.swift */,
+				B2000007 /* BPCategory.swift */,
+				B2000011 /* BPSession.swift */,
+				B2000012 /* TimerManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		A10000027 /* Views */ = {
+		B4000005 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A10000008 /* AddReadingView.swift */,
-				A10000010 /* ReadingListView.swift */,
-				A10000012 /* TrendsView.swift */,
-				A10000016 /* StatsView.swift */,
-				A10000018 /* ExportView.swift */,
-				A10000027 /* TimedSessionView.swift */,
+				B2000004 /* AddReadingView.swift */,
+				B2000005 /* ReadingListView.swift */,
+				B2000006 /* TrendsView.swift */,
+				B2000008 /* StatsView.swift */,
+				B2000009 /* ExportView.swift */,
+				B2000013 /* TimedSessionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -105,13 +105,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A10000029 /* BPTracker */ = {
+		B5000001 /* BPTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A10000030 /* Build configuration list for PBXNativeTarget "BPTracker" */;
+			buildConfigurationList = B7000001 /* Build configuration list for PBXNativeTarget "BPTracker" */;
 			buildPhases = (
-				A10000031 /* Sources */,
-				A10000028 /* Frameworks */,
-				A10000032 /* Resources */,
+				B6000001 /* Sources */,
+				B3000001 /* Frameworks */,
+				B6000002 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -119,25 +119,25 @@
 			);
 			name = BPTracker;
 			productName = BPTracker;
-			productReference = A10000021 /* BPTracker.app */;
+			productReference = B2000099 /* BPTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A10000033 /* Project object */ = {
+		B8000001 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					A10000029 = {
+					B5000001 = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = A10000034 /* Build configuration list for PBXProject "BPTracker" */;
+			buildConfigurationList = B7000002 /* Build configuration list for PBXProject "BPTracker" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -145,51 +145,51 @@
 				en,
 				Base,
 			);
-			mainGroup = A10000023;
-			productRefGroup = A10000025 /* Products */;
+			mainGroup = B4000001;
+			productRefGroup = B4000003 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A10000029 /* BPTracker */,
+				B5000001 /* BPTracker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A10000032 /* Resources */ = {
+		B6000002 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10000019 /* Assets.xcassets in Resources */,
+				B1000010 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A10000031 /* Sources */ = {
+		B6000001 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10000001 /* BPTrackerApp.swift in Sources */,
-				A10000003 /* ContentView.swift in Sources */,
-				A10000005 /* BloodPressureReading.swift in Sources */,
-				A10000007 /* AddReadingView.swift in Sources */,
-				A10000009 /* ReadingListView.swift in Sources */,
-				A10000011 /* TrendsView.swift in Sources */,
-				A10000013 /* BPCategory.swift in Sources */,
-				A10000015 /* StatsView.swift in Sources */,
-				A10000017 /* ExportView.swift in Sources */,
-				A10000022 /* BPSession.swift in Sources */,
-				A10000024 /* TimerManager.swift in Sources */,
-				A10000026 /* TimedSessionView.swift in Sources */,
+				B1000001 /* BPTrackerApp.swift in Sources */,
+				B1000002 /* ContentView.swift in Sources */,
+				B1000003 /* BloodPressureReading.swift in Sources */,
+				B1000004 /* AddReadingView.swift in Sources */,
+				B1000005 /* ReadingListView.swift in Sources */,
+				B1000006 /* TrendsView.swift in Sources */,
+				B1000007 /* BPCategory.swift in Sources */,
+				B1000008 /* StatsView.swift in Sources */,
+				B1000009 /* ExportView.swift in Sources */,
+				B1000011 /* BPSession.swift in Sources */,
+				B1000012 /* TimerManager.swift in Sources */,
+				B1000013 /* TimedSessionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A10000034 /* Debug */ = {
+		B9000001 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -252,7 +252,7 @@
 			};
 			name = Debug;
 		};
-		A10000035 /* Release */ = {
+		B9000002 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -308,7 +308,7 @@
 			};
 			name = Release;
 		};
-		A10000036 /* Debug */ = {
+		B9000003 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -327,7 +327,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bptracker.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -336,7 +336,7 @@
 			};
 			name = Debug;
 		};
-		A10000037 /* Release */ = {
+		B9000004 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -355,7 +355,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bptracker.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -367,25 +367,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A10000030 /* Build configuration list for PBXNativeTarget "BPTracker" */ = {
+		B7000001 /* Build configuration list for PBXNativeTarget "BPTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A10000036 /* Debug */,
-				A10000037 /* Release */,
+				B9000003 /* Debug */,
+				B9000004 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A10000034 /* Build configuration list for PBXProject "BPTracker" */ = {
+		B7000002 /* Build configuration list for PBXProject "BPTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A10000034 /* Debug */,
-				A10000035 /* Release */,
+				B9000001 /* Debug */,
+				B9000002 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A10000032 /* Project object */;
+	rootObject = B8000001 /* Project object */;
 }

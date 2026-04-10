@@ -5,11 +5,13 @@ A comprehensive iOS app for logging and understanding your blood pressure readin
 ## Features
 
 ### Core Functionality
+- **Guided Timer Sessions**: Follow medical best practices with 5-minute rest, two readings, and automatic averaging (NEW!)
 - **Easy Logging**: Quickly record blood pressure (systolic/diastolic), pulse, and contextual notes
 - **Smart Categorization**: Automatic classification based on AHA guidelines (Normal, Elevated, Hypertension Stage 1/2, Crisis, Low)
 - **Visual Feedback**: Color-coded categories for instant understanding
 - **Timestamping**: All readings automatically timestamped, with option to adjust
 - **Contextual Notes**: Add notes like "after exercise" or "morning reading"
+- **Quick Entry Option**: Manual entry available when timers aren't needed
 
 ### Data Analysis
 - **Trend Visualization**: Interactive charts showing blood pressure and heart rate trends over time
@@ -52,18 +54,33 @@ A comprehensive iOS app for logging and understanding your blood pressure readin
 
 ## Usage Guide
 
-### Adding a Reading
+### Taking a Guided Session (Recommended)
 1. Tap the **+** button in the top-right corner
-2. Enter your systolic and diastolic blood pressure values
-3. Enter your pulse/heart rate
-4. Optionally adjust the date/time
-5. Add any notes (e.g., "morning", "after walk")
-6. Tap **Save**
+2. Select **"Guided Session (Recommended)"**
+3. Follow the timer prompts:
+   - Rest for 5 minutes (timer counts down)
+   - Take first reading when prompted
+   - Rest for 1 minute (timer counts down)
+   - Take second reading when prompted
+4. Review the averaged result
+5. Tap **Save Session**
 
 The app will automatically:
-- Validate your inputs
-- Categorize the reading
-- Show you what category it falls into before saving
+- Calculate the average of both readings
+- Show you the medical category
+- Store both individual readings and the averaged session
+
+**Why two readings?** Medical best practice - averaging multiple readings reduces errors and provides more accurate data.
+
+### Quick Entry (Alternative)
+1. Tap the **+** button in the top-right corner
+2. Select **"Quick Entry"**
+3. Enter your systolic and diastolic blood pressure values
+4. Enter your pulse/heart rate
+5. Optionally adjust the date/time or add notes
+6. Tap **Save**
+
+Use quick entry for logging past readings or when time is limited.
 
 ### Viewing Your Readings
 Navigate to the **Readings** tab to see:
